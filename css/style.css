@@ -1,0 +1,15 @@
+/* import fonts */
+@import url(fonts.css);
+/* import variables */
+/* Strat Navbar Menu */
+.header-area .main-menu .navbar {
+  padding: 1rem 7rem; }
+  .header-area .main-menu .navbar .navbar-brand {
+    padding: 0 2rem 0 5rem; }
+.header-area .main-menu .nav-item .nav-link {
+  font: 500 15px/2px "Roboto", cursive;
+  text-transform: uppercase;
+  padding: 1.4rem;
+  color: #2b2a26; }
+
+/*# sourceMappingURL=style.css.map */
