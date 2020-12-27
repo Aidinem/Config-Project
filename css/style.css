@@ -1,0 +1,44 @@
+/* import fonts */
+@import url(fonts.css);
+/* Strat Navbar Menu */
+.header-area .main-menu .navbar {
+  padding: 1rem 15rem; }
+  .header-area .main-menu .navbar .navbar-brand {
+    padding: 0 2rem 0 5rem; }
+.header-area .main-menu .nav-item {
+  transition: .4s ease; }
+  .header-area .main-menu .nav-item:hover {
+    background: whitesmoke; }
+  .header-area .main-menu .nav-item .nav-link {
+    font: 500 18px/2px "Roboto", cursive, tahoma;
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: #141313; }
+    .header-area .main-menu .nav-item .nav-link:hover {
+      background: linear-gradient(90deg, #FFC300 0%, #787800 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text; }
+.header-area .main-menu .active {
+  background: linear-gradient(90deg, #FFC300 0%, #787800 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; }
+
+/* End Navbar Menu */
+/* Strat Banner Area */
+.site-banner .site-title h3 {
+  padding: 35%;
+  font-weight: 600; }
+.site-banner .site-title h1 {
+  font-size: 5rem; }
+.site-banner .site-title h4 {
+  font-size: 1.7rem; }
+.site-banner .banner-image {
+  padding: 7rem 0;
+  width: 90rem; }
+
+/* End Banner Area */
+/* End Navbar Menu */
+
+/*# sourceMappingURL=style.css.map */

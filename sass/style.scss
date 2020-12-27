@@ -1,0 +1,67 @@
+/* import fonts */
+@import url(fonts.css);
+
+@import "variables";
+
+
+/* Strat Navbar Menu */
+
+.header-area {
+    .main-menu {
+        .navbar {
+            padding: 1rem 15rem;
+            .navbar-brand {
+                padding: 0 2rem 0 5rem;
+            }
+        }
+        .nav-item {
+            transition: .4s ease;
+            &:hover {
+                background: whitesmoke;
+            }
+            .nav-link {
+                font: 500 18px/2px $roboto;
+                text-transform: uppercase;
+                padding: 1.7rem;
+                color: $title-color;
+                &:hover {
+                    background: $gradient-color;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                }
+            }
+        }
+        .active {
+            background: $gradient-color;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text; 
+        }
+    }
+}
+
+/* End Navbar Menu */
+
+/* Strat Banner Area */
+.site-banner {
+    .site-title {
+        h3 {
+            padding: 35%;
+            font-weight: 600;
+        }
+        h1 {
+            font-size: 5rem;
+        }
+        h4 {
+            font-size: 1.7rem;
+        }
+    }
+    .banner-image {
+        padding: 7rem 0;
+        width: 90rem;
+    }
+}
+/* End Banner Area */
+
+/* End Navbar Menu */
